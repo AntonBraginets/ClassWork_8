@@ -1,9 +1,9 @@
 package Example2;
 
 class Car extends Vehicle {
-    @Override
+    //@Override
     public void setPrice(double price) {
-        super.setPrice(25000);
+        super.setPrice(price);
     }
 
     @Override

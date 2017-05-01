@@ -1,9 +1,12 @@
 package Example2;
 
 class Ship extends Vehicle {
+    private int passengers = 0;
+    private String port;
+
     @Override
     public void setPrice(double price) {
-        super.setPrice(30000000);
+        super.setPrice(price);
     }
 
     @Override
@@ -13,7 +16,7 @@ class Ship extends Vehicle {
 
     @Override
     public void setSpeed(double speed) {
-        super.setSpeed(54);
+        super.setSpeed(speed);
     }
 
     @Override
@@ -23,7 +26,7 @@ class Ship extends Vehicle {
 
     @Override
     public void setYear(int year) {
-        super.setYear(1999);
+        super.setYear(year);
     }
 
     @Override
@@ -31,6 +34,19 @@ class Ship extends Vehicle {
         return super.getYear();
     }
 
-    private int passengers = 150;
-    private String port = "Odessa";
+    public int getPassengers() {
+        return passengers;
+    }
+
+    public void setPassengers(int passengers) {
+        this.passengers = passengers;
+    }
+
+    public String getPort() {
+        return port;
+    }
+
+    public void setPort(String port) {
+        this.port = port;
+    }
 }

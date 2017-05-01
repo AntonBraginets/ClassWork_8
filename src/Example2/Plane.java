@@ -3,7 +3,7 @@ package Example2;
 class Plane extends Vehicle {
     @Override
     public void setPrice(double price) {
-        super.setPrice(120000000);
+        super.setPrice(price);
     }
 
     @Override
@@ -13,7 +13,7 @@ class Plane extends Vehicle {
 
     @Override
     public void setSpeed(double speed) {
-        super.setSpeed(350);
+        super.setSpeed(speed);
     }
 
     @Override
@@ -23,7 +23,7 @@ class Plane extends Vehicle {
 
     @Override
     public void setYear(int year) {
-        super.setYear(2015);
+        super.setYear(year);
     }
 
     @Override
@@ -31,8 +31,8 @@ class Plane extends Vehicle {
         return super.getYear();
     }
 
-    private double altitude = 12500;
-    private int numberOfPassengers = 85;
+    private double altitude = 0;
+    private int numberOfPassengers = 0;
 
     public double getAltitude() {
         return altitude;
