@@ -16,7 +16,7 @@ public class Main {
             DocumentWorker profile = new ExpertDocumentWorker();
             profile.OpenDocument();
             profile.EditDocument();
-            profile.SaveDocument();//45679+
+            profile.SaveDocument();//test commet for checking of COMMIT AND PUSH option
         } else {
             DocumentWorker profile = new DocumentWorker();
             profile.OpenDocument();
