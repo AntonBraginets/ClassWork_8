@@ -16,7 +16,7 @@ public class Main {
             DocumentWorker profile = new ExpertDocumentWorker();
             profile.OpenDocument();
             profile.EditDocument();
-            profile.SaveDocument();
+            profile.SaveDocument();//45679+
         } else {
             DocumentWorker profile = new DocumentWorker();
             profile.OpenDocument();
