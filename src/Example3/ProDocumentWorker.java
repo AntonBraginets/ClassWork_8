@@ -8,6 +8,6 @@ class ProDocumentWorker extends DocumentWorker {
 
     @Override
     public void SaveDocument() {
-        System.out.println("PRO Document has been saved in old format. Savi gin new formates is avalable in EXPERT mode");
+        System.out.println("PRO Document has been saved in old format. Saving in new format is available in EXPERT mode");
     }
 }
